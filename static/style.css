@@ -1,0 +1,158 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  
+  .center{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+  }
+  
+  
+  .piy{
+    color: white;
+  }
+  .button
+  {
+     
+      
+    text-decoration: none;
+    width: 7.5em;
+    padding: 8px;
+    padding-left: 12%;
+    padding-top: 0.5%;
+    font-size: 26px;
+    color: rgb(231, 216, 216);
+    font-weight: 400;
+    border: 0.2em solid white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 4em;
+    transition: 1.5s;
+    text-align: center;
+  }
+  button a{
+    text-decoration: none;
+  }
+  
+  
+  .button:hover
+  {
+      box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+                 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+      text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee,;      
+          
+                 
+  }
+  
+  
+  .main{
+    background-color: black;
+  
+  }
+  .title
+  {
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+    background-color:black;
+   
+}
+  
+  
+  .navitem1
+  {
+    padding: 0.8em;
+      padding-right: 1.2em;
+      padding-left: 1.2em;
+      padding-top: 0.5em;
+      font-size: 0.6em;
+      display: block;
+      cursor: pointer;
+      font-family: 'Baloo Bhai', cursive;
+      color: white;
+  }
+  
+  .navitem1:hover
+  {
+    padding: 0.8em;
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+    padding-top: 0.5em;
+    font-size: 0.6em;
+      display: block;
+      cursor: pointer;
+      color: white;
+  }
+  
+ 
+  .main-header
+  {
+      font-size: 1.5em;
+      border-bottom: black;
+  
+  }
+
+
+
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+    background-color:black;
+}
+.item {
+    margin: 5px;
+
+}
+ .img1{
+  height: 17em;
+  width: 19em;
+  
+ }
+ 
+ 
+ .name{
+  color:white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bold;
+  font-weight: 900;
+  font-size: 136%;
+ 
+
+ }
+
+/*img*/
+
+
+
+.img2 {
+  position: absolute;
+    text-align: center;
+    justify-content: center;
+    height: 7em;
+    width: 7em;
+    padding-top: 5em;
+    padding-left: 5em;
+    opacity:0;
+    
+ 
+}
+.container  .img2:hover{
+  opacity:0.7;
+}
+.container a:hover
+{
+  opacity:0.7;
+}
