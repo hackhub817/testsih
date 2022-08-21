@@ -269,3 +269,14 @@ ul li:nth-child(5):hover{
   box-shadow: 0 0 15px #d35400;
   text-shadow: 0 0 15px #d35400;
 } */
+
+.teamname
+{
+  font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    justify-items: center;
+    color: white;
+}
