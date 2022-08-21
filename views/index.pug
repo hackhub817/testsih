@@ -2,17 +2,36 @@ doctype html
 head
   meta(charset='utf-8')
   title NCERT 
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css')
   style
       include ../static/style.css
-header.main-header
+body
+ header.main-header
   header.main-header
     .col
       nav.title
       nav.title
         .button.navitem1.piy
-          a(href='/home.pug' style='text-decoration: none;') Home 
+          a(href='/home.pug' style='text-decoration: none; color : white') Home 
         .button.navitem1.piy
-          a(href='project.html' style='text-decoration: none;')  Project 
+          a(href='project.html' style='text-decoration: none; color : white')  Project 
         .button.navitem1.piy
-          a(href='/about.pug' style='text-decoration: none;')  About us
-        
+          a(href='/about.pug' style='text-decoration: none; color : white')  About us
+ footer
+  ul
+    li
+      i.fab.fa-facebook-f
+    li
+      i.fab.fa-twitter
+    li
+      i.fab.fa-instagram
+    li
+      i.fab.fa-linkedin-in
+    li
+      i.fab.fa-youtube        
