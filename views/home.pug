@@ -9,6 +9,12 @@ head
   link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
   link(href='https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap' rel='stylesheet')
   link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap' rel='stylesheet')
+  script(type='module' src='https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js')
+  script(nomodule='' src='https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js')
+
   style
       include ../static/style.css
 body      
@@ -17,12 +23,21 @@ body
     .col
       nav.title
       nav.title
+        img.photo(src='../static/sih2022.png' )
         .button.navitem1.piy
-          a(href='/home.pug' style='text-decoration: none; color : white') Home 
+          a(href='/home.pug' style='text-decoration: none; color:white') Home 
         .button.navitem1.piy
-          a(href='project.html' style='text-decoration: none; color : white')  Project 
+          a(href='project.html' style='text-decoration: none; color:white')  Project 
         .button.navitem1.piy
-          a(href='/about.pug' style='text-decoration: none; color : white')  About us
+          a(href='/about.pug' style='text-decoration: none; color : white' )  About us
+
+ section.middle
+  section.teamname 
+   h1 Brute  
+   h1.edit Force 
+  #aSide
+    model-viewer(src='../static/book.gltf' alt='VR Headset' auto-rotate='' camera-controls='' ar='' ios-src='../static/book.gltf')
+     
         
  footer
   ul
