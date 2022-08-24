@@ -294,7 +294,7 @@ font-family: 'Lobster', cursive;
 text-align: justify;
 font-family: 'Lora', serif;
 font-size: 5em;
-height: 8em;
+height: 7em;
 }
 .edit{
 padding-left: 1.5em;
@@ -317,9 +317,42 @@ right: 7%;
 #aSide model-viewer {
 
 height: 35.1em;
-width: 45.4em;
+width: 35.4em;
 position: relative;
 top: 0;
 left: 0;
 border: none;
+}
+.extra
+{
+  color:white;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+.photu
+{
+  padding-left:2.25em;
+  padding-top:0.3em;
+}
+.books
+{
+  display: flex;
+    padding-left: 2.2em;
+    padding-top: 2em;
+}
+
+.siz
+{
+  width: 20em;
+  height: 18em;
+  padding-top: 3.5em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-bottom: .5em;
+
+
+}
+.ut
+{
+padding-bottom: 1em;
 }
