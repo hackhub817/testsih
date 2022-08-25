@@ -174,12 +174,12 @@ opacity:0.7;
 
 footer{
 display: flex;
-height: 20vh;
+height: 15vh;
 text-align: center;
 align-items: center;
 justify-content: center;
 background: #262626;
-width: 100%
+width: 84.2em;
 }
 ul{
 display: flex;
@@ -307,8 +307,8 @@ justify-content: space-between;
 flex-wrap:wrap;
 }
 #aSide {
-height: 21.1em;
-  width: 36.4em;
+  height: 21.1em;
+  width: 31.4em;
 position: relative;
 top: calc(50% - 250px);
 right: 7%;
