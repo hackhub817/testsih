@@ -179,6 +179,7 @@ text-align: center;
 align-items: center;
 justify-content: center;
 background: #262626;
+width: 100%
 }
 ul{
 display: flex;
