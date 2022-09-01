@@ -1,5 +1,5 @@
 
-
+  
 *{
   margin: 0;
   padding: 0;
@@ -338,8 +338,12 @@ border: none;
 .books
 {
   display: flex;
-    padding-left: 2.2em;
-    padding-top: 2em;
+  /* padding-left: 2.2em; */
+  /* padding-top: 2em; */
+  justify-content: space-between;
+}
+.booking:hover{
+  opacity: 0.5;
 }
 
 .siz

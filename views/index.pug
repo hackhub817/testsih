@@ -14,6 +14,8 @@ head
   link(href='https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap' rel='stylesheet')
   script(type='module' src='https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js')
   script(nomodule='' src='https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js')
+  style.
+
 
   style
       include ../static/style.css
@@ -24,10 +26,11 @@ body
       nav.title
       nav.title
         img.photo(src='../static/sih2022.png' )
+        a(href='/home.pug' style='text-decoration: none; color:white')
+         .button.navitem1.piy
+           a(href='/home.pug' style='text-decoration: none; color:white') Home 
         .button.navitem1.piy
-          a(href='/home.pug' style='text-decoration: none; color:white') Home 
-        .button.navitem1.piy
-          a(href='project.html' style='text-decoration: none; color:white')  Project 
+          a(href='/project.pug' style='text-decoration: none; color:white')  Project 
         .button.navitem1.piy
           a(href='/about.pug' style='text-decoration: none; color : white' )  About us
 
@@ -45,36 +48,45 @@ body
 
  section.books 
   .booking
-   img.fir.siz(src='../static/class4.jpg')
-   figcaption.name Class 4 NCERT
+     a(href='./class4.pug')
+      img.fir.siz(src='../static/class4.jpg')
+     figcaption.name Class 4 NCERT
   .booking 
-   img.fir.siz(src='../static/class5.webp')
-   figcaption.name Class 5 NCERT 
+     a(href='./class5.pug')
+      img.fir.siz(src='../static/class5.webp')
+     figcaption.name Class 5 NCERT 
   .booking
-   img.fir.siz(src='../static/class6.jpg')
-   figcaption.name Class 6 NCERT
+     a(href='./class6.pug')
+      img.fir.siz(src='../static/class6.jpg')
+     figcaption.name Class 6 NCERT
 
  section.books 
   .booking
-   img.fir.siz(src='../static/class7.jpg')
-   figcaption.name Class 7 NCERT
+     a(href='./class7.pug')
+      img.fir.siz(src='../static/class7.jpg')
+     figcaption.name Class 7 NCERT
   .booking 
-   img.fir.siz(src='../static/class8.webp')
-   figcaption.name Class 8 NCERT 
+     a(href='./class8.pug')
+      img.fir.siz(src='../static/class8.webp')
+     figcaption.name Class 8 NCERT 
   .booking
-   img.fir.siz(src='../static/class9.webp')
-   figcaption.name Class 9 NCERT
+     a(href='./class9.pug')
+      img.fir.siz(src='../static/class9.webp')
+     figcaption.name Class 9 NCERT
 
- section.books.ut
+ section.books 
   .booking
-   img.fir.siz(src='../static/class10.jpg')
-   figcaption.name Class 10 NCERT 
+     a(href='./class10.pug')
+      img.fir.siz(src='../static/class10.jpg')
+     figcaption.name Class 10 NCERT
   .booking 
-   img.fir.siz(src='../static/class11.jpg')
-   figcaption.name Class 11 NCERT
+     a(href='./class11.pug')
+      img.fir.siz(src='../static/class11.jpg')
+     figcaption.name Class 11 NCERT 
   .booking
-   img.fir.siz(src='../static/class12.jpg')
-   figcaption.name Class 12 NCERT
+     a(href='./class12.pug')
+      img.fir.siz(src='../static/class12.jpg')
+     figcaption.name Class 12 NCERT
 
 
  footer
@@ -89,3 +101,4 @@ body
       i.fab.fa-linkedin-in
     li
       i.fab.fa-youtube
+
